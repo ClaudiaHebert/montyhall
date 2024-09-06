@@ -1,0 +1,13 @@
+Package: montyhall
+Title: Runs Simulation of Monty Hall Game
+Version: 0.0.0.9000
+Authors@R: 
+    person("Claudia", "Hebert", , "claudiahebert2@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "heber145@umn.edu"))
+Description:  The game setup replicates the game on the TV show Let's Make a Deal where there are three doors for a contestant to choose from, one of which has a car behind it and two have goats. The contestant selects a door, then the host opens a door to reveal a goat, and then the contestant is given an opportunity to stay with their original selection or switch to the other unopened door. There was a famous debate about whether it was optimal to stay or switch when given the option to switch, so this simulation was created to test both strategies. 
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+	dplyr
